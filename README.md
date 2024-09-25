@@ -45,6 +45,7 @@ sudo mysql secure installation
 <br>
 <br>
 open MariaDB with this command 
+
 ```
 sudo mariadb –u root
 ```
