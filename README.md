@@ -1,21 +1,21 @@
 rpi = raspberry pi
 
 
-1. Build rpi
-a.	Find another god damn tutorial
+1. Build rpi <br>
+a.	Find another god damn tutorial  <br>
 
-2. Setup OS for rpi (Ubuntu)
-a.	Put the SD card into a pc
-b.	On said pc, download the imager installer from https://www.raspberrypi.com/software/ 
-c.	Use the installer to install the imager
-d.	Choose “RASPBERRY PI 4” as hardware
-e.	Choose “Other general-purpose OS > Ubuntu > Ubuntu Desktop 24.04.1 LTS  (64-bit)” as OS
-f.	Choose “SDHC SCSI Disk Device” as storage
-g.	Click “NEXT>YES” 
-h.	When it’s done downloading, take out the sd card
-i.	Put the sd card back into the rpi
+2. Setup OS for rpi (Ubuntu)  <br>
+a.	Put the SD card into a pc  <br>
+b.	On said pc, download the imager installer from https://www.raspberrypi.com/software/  <br>
+c.	Use the installer to install the imager  <br>
+d.	Choose “RASPBERRY PI 4” as hardware  <br>
+e.	Choose “Other general-purpose OS > Ubuntu > Ubuntu Desktop 24.04.1 LTS  (64-bit)” as OS  <br>
+f.	Choose “SDHC SCSI Disk Device” as storage  <br>
+g.	Click “NEXT>YES”  <br>
+h.	When it’s done downloading, take out the sd card  <br>
+i.	Put the sd card back into the rpi  <br>
 
-3. Install all other things
+3. Install all other things  <br>
 a.	Write all the following commands{
 
 sudo apt update
