@@ -73,8 +73,8 @@ Enter current password for root (enter for none):
 ```
 OK, successfully used password, moving on...
 
-Setting the root password or using the unix_socket ensures that nobody can log into the MariaDB
-root user without the proper authorisation.
+Setting the root password or using the unix_socket ensures that nobody 
+can log into the MariaDB root user without the proper authorisation.
 
 You already have your root account protected, so you can safely answer 'n'.
 
@@ -94,7 +94,11 @@ Change the root password? [Y/n]
 ```
  ...skipping.
 
-By default, a MariaDB installation has an anonymous user, allowing anyone to log into MariaDB without having to have a user account created for them.  This is intended only for testing, and to make the installation a bit smoother.  You should remove them before moving into a production encironment.
+By default, a MariaDB installation has an anonymous user, allowing anyone 
+to log into MariaDB without having to have a user account created for 
+them.  This is intended only for testing, and to make the installation 
+go a bit smoother.  You should remove them before moving into a 
+production encironment.
 
 Remove anonymous users? [Y/n] 
 ```
@@ -104,7 +108,8 @@ Remove anonymous users? [Y/n]
 ```
  ...skipping.
 
-Normally, root should only be allowed to connect from 'localhost'.  This ensures that someone cannot guess the root password from the network.
+Normally, root should only be allowed to connect from 'localhost'.  This 
+ensures that someone cannot guess the root password from the network.
 
 Disallow root login remotely [Y/n]
 ```
@@ -113,7 +118,9 @@ Disallow root login remotely [Y/n]
 ```
  ... Success!
 
-By default, MariaDB comes with a datebase named 'test' that anyone can access.  This is also intended only for testing, and should be removed before moving into a production environment.
+By default, MariaDB comes with a datebase named 'test' that anyone can 
+access.  This is also intended only for testing, and should be removed 
+before moving into a production environment.
 
 Remove the test database and access to it? [Y/n] 
 ```
@@ -123,7 +130,8 @@ Remove the test database and access to it? [Y/n]
 ```
  ... skipping.
 
-Reloading the privilege table will ensure that all changes made so far will take effect immediately.
+Reloading the privilege table will ensure that all changes made so far 
+will take effect immediately.
 
 Reload privilege table? [Y/n] 
 ```
@@ -134,7 +142,8 @@ Reload privilege table? [Y/n]
 
 Cleaning up...
 
-All Done!  If you've completed all of the above steps, your MariaDB installation should now be secure.
+All Done!  If you've completed all of the above steps, your MariaDB 
+installation should now be secure.
 
 Thank you for using MariaDB!
 ```
