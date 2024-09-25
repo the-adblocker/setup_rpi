@@ -21,8 +21,9 @@ i.	Put the sd card into the rpi  <br>
  <br>
 
 3. Install all other things  <br>
-a.	Write all the following commands in the terminal on your rpi {
+a.	Write all the following commands in the terminal on your rpi 
 
+```
 sudo apt update
 sudo apt upgrade
 
@@ -38,23 +39,24 @@ sudo apt install python3-pip
 sudo apt install git
 sudo apt install mariadb-server
 sudo mysql secure installation
+```
 
-}
 
- <br>
- <br>
-open MariaDB with this command {
-
+<br>
+<br>
+open MariaDB with this command 
+```
 sudo mariadb –u root
+```
 
-}
 
- <br>
- <br>
-in MariaDB write these commands to create a user {
+<br>
+<br>
+in MariaDB write these commands to create a user 
 
+```
 CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON *.* TO 'username'@’localhost’ IDENTIFIED BY 'password';
 FLUSH PRIVILEGES;
 
-}
+```
