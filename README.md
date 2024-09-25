@@ -83,13 +83,62 @@ Switch to unix_socket authentication [Y/n]
 - type ***n*** and enter
 - the next output to appear is:
 ```
-...skipping.
+ ...skipping.
 
 You already have your root account protected, so you can safely answer 'n'.
 
 Change the root password? [Y/n]
 ```
 - type ***n*** and enter
+- the next output to appear is:
+```
+ ...skipping.
+
+By default, a MariaDB installation has an anonymous user, allowing anyone to log into MariaDB without having to have a user account created for them.  This is intended only for testing, and to make the installation a bit smoother.  You should remove them before moving into a production encironment.
+
+Remove anonymous users? [Y/n] 
+```
+- wether you type ***y*** and enter or ***n*** and enter, depends on your current situation
+- in this example I type ***n*** and enter
+- the next output to appear is:
+```
+ ...skipping.
+
+Normally, root should only be allowed to connect from 'localhost'.  This ensures that someone cannot guess the root password from the network.
+
+Disallow root login remotely [Y/n]
+```
+- type ***y*** and enter
+- the next output to appear is:
+```
+ ... Success!
+
+By default, MariaDB comes with a datebase named 'test' that anyone can access.  This is also intended only for testing, and should be removed before moving into a production environment.
+
+Remove the test database and access to it? [Y/n] 
+```
+- wether you type ***y*** and enter or ***n*** and enter, depends on your current situation
+- in this example I type ***n*** and enter
+- the next output to appear is:
+```
+ ... skipping.
+
+Reloading the privilege table will ensure that all changes made so far will take effect immediately.
+
+Reload privilege table? [Y/n] 
+```
+- type ***y*** and enter
+- the next (and last) output to appear is:
+```
+ ... Success!
+
+Cleaning up...
+
+All Done!  If you've completed all of the above steps, your MariaDB installation should now be secure.
+
+Thank you for using MariaDB!
+```
+- you can now move on to the next steps
 
 <br>
 <br>
@@ -103,6 +152,7 @@ sudo mariadb –u root
 
 <br>
 <br>
+
 -   in MariaDB write these commands to create a user 
 
 ```
