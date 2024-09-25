@@ -14,6 +14,7 @@ f.	Choose “SDHC SCSI Disk Device” as storage  <br>
 g.	Click “NEXT>YES”  <br>
 h.	When it’s done downloading, take out the sd card  <br>
 i.	Put the sd card back into the rpi  <br>
+ <br>
 
 3. Install all other things  <br>
 a.	Write all the following commands{
@@ -35,13 +36,13 @@ sudo apt install mariadb-server
 sudo mysql secure installation
 
 }
-
+ <br>
 open MariaDB with this command{
 
 sudo mariadb –u root
 
 }
-
+ <br>
 in MariaDB write these commands to create a user{
 
 CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
