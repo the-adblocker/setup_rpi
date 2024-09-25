@@ -1,4 +1,4 @@
-#Setup your rpi4
+Setup your rpi <br>
 rpi = raspberry pi
  <br>
  <br>
@@ -21,7 +21,7 @@ i.	Put the sd card back into the rpi  <br>
  <br>
 
 3. Install all other things  <br>
-a.	Write all the following commands{
+a.	Write all the following commands {
 
 sudo apt update
 sudo apt upgrade
@@ -43,7 +43,7 @@ sudo mysql secure installation
 
  <br>
  <br>
-open MariaDB with this command{
+open MariaDB with this command {
 
 sudo mariadb –u root
 
@@ -51,7 +51,7 @@ sudo mariadb –u root
 
  <br>
  <br>
-in MariaDB write these commands to create a user{
+in MariaDB write these commands to create a user {
 
 CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON *.* TO 'username'@’localhost’ IDENTIFIED BY 'password';
