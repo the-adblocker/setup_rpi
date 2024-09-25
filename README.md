@@ -5,7 +5,7 @@
 
 
 ### 1. Build rpi <br>
-a.	Find another god damn tutorial  <br>
+-	Find another god damn tutorial  <br>
 <br>
 
 ### 2. Setup OS for rpi (Ubuntu)  <br>
