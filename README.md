@@ -16,12 +16,12 @@ e.	Choose “Other general-purpose OS > Ubuntu > Ubuntu Desktop 24.04.1 LTS  (64
 f.	Choose “SDHC SCSI Disk Device” as storage  <br>
 g.	Click “NEXT>YES”  <br>
 h.	When it’s done downloading, take out the sd card  <br>
-i.	Put the sd card back into the rpi  <br>
+i.	Put the sd card into the rpi  <br>
  <br>
  <br>
 
 3. Install all other things  <br>
-a.	Write all the following commands {
+a.	Write all the following commands in the terminal on your rpi {
 
 sudo apt update
 sudo apt upgrade
