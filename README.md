@@ -5,8 +5,8 @@
 
 
 ### 1. Build rpi <br>
--	Find another god damn tutorial
--     A video tutorial or tutorial with pictures might be a good idea
+- Find another god damn tutorial
+- A video tutorial or tutorial with pictures might be a good idea  
 <br>
 <br>
 
