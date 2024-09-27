@@ -4,7 +4,7 @@
 <br>
 
 
-### 1. Build rpi <br>
+### 1. Build your rpi <br>
 - Find another god damn tutorial
 - A video tutorial or tutorial with pictures might be a good idea  
 <br>
