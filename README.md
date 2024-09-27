@@ -174,4 +174,11 @@ FLUSH PRIVILEGES;
 
 - type ***exit*** and enter to quit mariadb
 <br>
+
+- write the following command to log back into mariadb:
+```
+mariadb -u username -p
+``` 
+- write your password
+<br>
 <br>
