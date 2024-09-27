@@ -5,7 +5,9 @@
 
 
 ### 1. Build rpi <br>
--	Find another god damn tutorial  <br>
+-	Find another god damn tutorial
+-     A video tutorial or tutorial with pictures might be a good idea
+<br>
 <br>
 
 ### 2. Setup OS for rpi (Ubuntu)  <br>
