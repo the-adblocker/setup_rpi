@@ -183,5 +183,3 @@ mariadb -u username -p
 
 <br>
 <br>
-
-### 4. Running a phone catalog through the terminal
