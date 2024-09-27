@@ -20,7 +20,7 @@
 -	Click “NEXT>YES”  <br>
 -	When it’s done downloading, take out the sd card  <br>
 -	Put the sd card into the rpi  <br>
-- follow the setup on the rpi, choose your preffered language and keyboard
+- Follow the setup on the rpi, choose your preffered language and keyboard
 <br>
 <br>
 
@@ -176,10 +176,12 @@ FLUSH PRIVILEGES;
 - type ***exit*** and enter to quit mariadb
 <br>
 
-- write the following command to log back into mariadb:
+- write the following command and then write your password to log back into mariadb:
 ```
 mariadb -u username -p
 ``` 
-- write your password
+
 <br>
 <br>
+
+### 4. Running a phone catalog through the terminal
