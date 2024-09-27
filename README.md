@@ -20,6 +20,7 @@
 -	Click “NEXT>YES”  <br>
 -	When it’s done downloading, take out the sd card  <br>
 -	Put the sd card into the rpi  <br>
+- follow the setup on the rpi, choose your preffered language and keyboard
 <br>
 <br>
 
